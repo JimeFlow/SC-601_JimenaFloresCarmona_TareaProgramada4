@@ -58,14 +58,14 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 </script>
 ```
 
-### ✅ Funcionalidades a implementar:
+### ✅ Especificaciones Funcionales Implementadas
 
 1. **Migrar lógica a jQuery**  
-   Reemplazar todas las llamadas a `document.createElement`, `getElementById`, `appendChild`, `addEventListener`, etc., por sus equivalentes jQuery.  
-   Se deben clasificar los números como `par` o `impar` en sus clases.
+   - Reemplazar todas las llamadas a `document.createElement`, `getElementById`, `appendChild`, `addEventListener`, etc., por sus equivalentes jQuery.  
+   - Se deben clasificar los números como `par` o `impar` en sus clases.
 
 2. **Switch “Impares”**  
-   Al activar el interruptor de **Impares**, se deben ocultar los elementos con clase `impar` utilizando jQuery:  
+   Al activar el interruptor de **Impares**, se deben ocultar los elementos que no forman parte de la clase `impar` utilizando jQuery:  
    ```css
    .oculto {
      display: none;
@@ -79,7 +79,7 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 
 ---
 
-## 🔧 Especificaciones Técnicas
+## ⚙️🔧 Especificaciones Técnicas
 
 - **Lenguaje:** HTML, JavaScript con jQuery  
 - **Framework de Estilos:** [PicoCSS](https://picocss.com)  
@@ -98,8 +98,14 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 
 ---
 
-### 📚 Recursos Consultados
+### 📚 Recursos de Apoyo y Referencias
 
+#### Repositorio del Proyecto  
+**Jimena Flores Carmona - FH23014559**  
+* Link: https://github.com/JimeFlow/SC-601_JimenaFloresCarmona_TareaProgramada3.git
+* [Enlace al repositorio GitHub](https://github.com/JimeFlow/SC-601_JimenaFloresCarmona_TareaProgramada4.git)
+
+#### Documentación Consultada 
 - [jQuery API Documentation](https://api.jquery.com)  
 - [Criba de Eratóstenes en Wikipedia](https://es.wikipedia.org/wiki/Criba_de_Erat%C3%B3stenes)  
 - [PicoCSS Framework](https://picocss.com)  
@@ -107,12 +113,12 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 
 ---
 
-### 🤖 Prompt utilizado con IA (Copilot)
+### 🤖 Prompt del ChatBot de IA utilizada para la Solución: _Copilot_
 
 **Descripción:**  
 Durante el desarrollo se consultaron recursos complementarios para implementar correctamente la lógica con jQuery y el sistema interactivo de visualización de números naturales.
 
-#### 🤖 Consultas y respuestas de esta conversación
+#### Consultas y respuestas de esta conversación
 
 ##### 🔹 Instalación personalizada de Node.js  
 **Consulta:** ¿Y de esto qué debería de seleccionar?  
