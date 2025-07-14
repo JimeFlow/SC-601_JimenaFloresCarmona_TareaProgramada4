@@ -48,7 +48,7 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 
 ---
 
-## 🧩 Especificaciones Funcionales
+## ⚙️ Especificaciones Funcionales
 
 📌 Se deben modificar únicamente los scripts dentro del archivo `index.html`:
 
@@ -79,7 +79,7 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 
 ---
 
-## ⚙️🔧 Especificaciones Técnicas
+## 🔧 Especificaciones Técnicas
 
 - **Lenguaje:** HTML, JavaScript con jQuery  
 - **Framework de Estilos:** [PicoCSS](https://picocss.com)  
@@ -98,14 +98,14 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 
 ---
 
-### 📚 Recursos de Apoyo y Referencias
+## 📚 Recursos de Apoyo y Referencias
 
-#### Repositorio del Proyecto  
+### Repositorio del Proyecto  
 **Jimena Flores Carmona - FH23014559**  
 * Link: https://github.com/JimeFlow/SC-601_JimenaFloresCarmona_TareaProgramada3.git
 * [Enlace al repositorio GitHub](https://github.com/JimeFlow/SC-601_JimenaFloresCarmona_TareaProgramada4.git)
 
-#### Documentación Consultada 
+### Documentación Consultada 
 - [jQuery API Documentation](https://api.jquery.com)  
 - [Criba de Eratóstenes en Wikipedia](https://es.wikipedia.org/wiki/Criba_de_Erat%C3%B3stenes)  
 - [PicoCSS Framework](https://picocss.com)  
@@ -113,74 +113,74 @@ Al acceder a `http://localhost:8080`, se cargará la interfaz con:
 
 ---
 
-### 🤖 Prompt del ChatBot de IA utilizada para la Solución: _Copilot_
+## 🤖 Prompt del ChatBot de IA utilizada para la Solución: _Copilot_
 
 **Descripción:**  
 Durante el desarrollo se consultaron recursos complementarios para implementar correctamente la lógica con jQuery y el sistema interactivo de visualización de números naturales.
 
-#### Consultas y respuestas de esta conversación
+### Consultas y respuestas de esta conversación
 
-##### 🔹 Instalación personalizada de Node.js  
+#### 🔹 Instalación personalizada de Node.js  
 **Consulta:** ¿Y de esto qué debería de seleccionar?  
 **Respuesta:** Se recomienda elegir “Entire feature will be installed on local hard drive” para asegurar que se instale todo el paquete de Node.js correctamente, incluyendo `npm`.
 
-##### 🔹 Corepack Manager  
+#### 🔹 Corepack Manager  
 **Consulta:** ¿Y en este?  
 **Respuesta:** Se explica que Corepack es opcional. Puedes instalarlo con “Entire feature will be installed…” o dejarlo fuera sin afectar tu práctica.
 
-##### 🔹 Herramientas adicionales para compilar  
+#### 🔹 Herramientas adicionales para compilar  
 **Consulta:** ¿Y ahora?  
 **Respuesta:** Se recomienda marcar la casilla de instalación de herramientas como Python y VS Build Tools para evitar problemas futuros.
 
-##### 🔹 Verificación de instalación  
+#### 🔹 Verificación de instalación  
 **Consulta:** ¿Cómo sabré si ya terminó de instalar?  
 **Respuesta:** Abrir PowerShell y ejecutar `node -v` y `npm -v` para verificar la instalación.
 
-##### 🔹 Error de ejecución de script npm.ps1  
+#### 🔹 Error de ejecución de script npm.ps1  
 **Consulta:** Aún sigue el error  
 **Respuesta:** Se debe cambiar la política de ejecución en PowerShell a `RemoteSigned`.
 
-##### 🔹 Node y npm no reconocidos  
+#### 🔹 Node y npm no reconocidos  
 **Consulta:** Aún sigue el error  
 **Respuesta:** Se guía sobre cómo agregar manualmente la ruta `C:\Program Files\nodejs\` al PATH.
 
-##### 🔹 Reconocimiento tardío de comandos  
+#### 🔹 Reconocimiento tardío de comandos  
 **Consulta:** Mentira mentira, ya funcionó  
 **Respuesta:** Se celebra el éxito y se confirma que era necesario abrir una nueva ventana.
 
-##### 🔹 Instalación de `http-server`  
+#### 🔹 Instalación de `http-server`  
 **Consulta:** Me parece! Ayúdame con el siguiente paso pls  
 **Respuesta:** Se guía con el comando `npm install -g http-server` y cómo iniciar el servidor.
 
-##### 🔹 Resultado de instalación  
+#### 🔹 Resultado de instalación  
 **Consulta:** ¿Qué significa?  
 **Respuesta:** Se interpreta el log como instalación exitosa y se explica lo relevante del mensaje.
 
-##### 🔹 Servidor ejecutándose  
+#### 🔹 Servidor ejecutándose  
 **Consulta:** ¿Y ahora?  
 **Respuesta:** Se indica abrir `http://localhost:8080` en el navegador.
 
-##### 🔹 Especificaciones funcionales del script  
+#### 🔹 Especificaciones funcionales del script  
 **Consulta:** Especificaciones funcionales...  
 **Respuesta:** Se interpreta qué debe hacer cada switch usando jQuery y se explica cómo implementar la criba de Eratóstenes.
 
-##### 🔹 Repaso sobre propiedades numéricas  
+#### 🔹 Repaso sobre propiedades numéricas  
 **Consulta:** ¿Podrías recordarme el cálculo o lógica de los números?  
 **Respuesta:** Se explica qué es un número primo y se repasa la criba de Eratóstenes.
 
-##### 🔹 ¿Qué es jQuery?  
+#### 🔹 ¿Qué es jQuery?  
 **Consulta:** ¿Qué sabes del library jQuery?  
 **Respuesta:** Se explica su propósito, ventajas y aplicaciones prácticas.
 
-##### 🔹 Aplicaciones de jQuery  
+#### 🔹 Aplicaciones de jQuery  
 **Consulta:** ¿Cómo se podría aplicar jQuery?  
 **Respuesta:** Se detallan usos en DOM, eventos, filtros y cómo aplicar ideas al proyecto.
 
-##### 🔹 Criba de Eratóstenes  
+#### 🔹 Criba de Eratóstenes  
 **Consulta:** ¿Qué es eso? Nunca lo he escuchado  
 **Respuesta:** Se explica paso a paso el algoritmo histórico para encontrar primos.
 
-##### 🔹 Validación final  
+#### 🔹 Validación final  
 **Consulta:** ¿Ya cumple con los requisitos?  
 **Respuesta:** Se hace checklist de los tres puntos y se confirma el cumplimiento.
 
